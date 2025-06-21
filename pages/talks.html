@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Talks – PreTrain 2025</title>
+  <link rel="shortcut icon" href="../images/favicon.ico" />
+
+  <!-- Bootstrap & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+
+  <!-- Theme Styling -->
+  <style>
+    body, h1, h2, h3, h4, h5, h6 {
+      font-family: 'Lato', sans-serif;
+    }
+
+    .navbar, h1, button {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .bg-custom {
+      background-color: rgb(49, 49, 49) !important;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+      color: white !important;
+    }
+
+    .text-main {
+      color: rgb(107, 107, 107);
+    }
+
+    .maintitle {
+      margin-top: 10px;
+      color: rgba(98, 73, 31, 0.691);
+      font-size: 35px;
+      text-align: left;
+      padding-bottom: 20px;
+    }
+  </style>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html">PreTrain 2025</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="./organisers.html">Organisers</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="./talks.html">Talks</a></li>
+          <li class="nav-item"><a class="nav-link" href="./schedule.html">Schedule</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Cover Image -->
+  <div class="container">
+    <div class="img-fluid text-center">
+      <img src="../images/strand-2.jpg" class="img-fluid my-3" style="max-width:90%;"
+           alt="KCL's Maughan Library on Chancery Lane">
+    </div>
+
+    <!-- Talks Section -->
+    <div class="col-lg-12">
+      <h2 class="text-center maintitle"><b>Invited Talks</b></h2>
+      <hr>
+
+      
+      <!-- Speaker 1: Che Liu -->
+      <div class="row align-items-center my-4">
+        <div class="col-md-3 text-center">
+          <img class="rounded-circle img-thumbnail"
+               style="max-width:180px; aspect-ratio: 1 / 1; object-fit: cover;"
+               src="../images/che_liu.png" alt="Che Liu headshot" />
+          <p class="fs-5 my-2 committee-name">
+            <a href="https://scholar.google.com/citations?user=HED_458AAAAJ" target="_blank" rel="noopener noreferrer">
+              Che&nbsp;Liu
+            </a>
+          </p>
+          <p class="committee-title">PhD student<br>Imperial College London</p>
+        </div>
+        <div class="col-md-9">
+          <h4 class="fw-bold">From Language to Perception: Emergent Multimodal Reasoning in Foundation Models</h4>
+          <p><strong>Abstract.</strong> Large language models have demonstrated impressive reasoning capabilities, but much of this progress depends on supervision with Chain-of-Thought reasoning data. We show that strong reasoning ability can emerge even without such supervision, using a minimalist reinforcement-driven objective. Building on this insight, we extend our approach to include visual inputs and observe similar reasoning behaviors in multimodal settings. This suggests that reasoning is not tied to specific types of supervision or data formats, but can emerge naturally when the training process is properly aligned. These results point toward a new direction for developing unified and general-purpose models capable of reasoning across language and perception.</p>
+          <p><strong>Bio.</strong> Che Liu is a fourth-year PhD student at Imperial College London, supervised by Dr. Rossella Arcucci and Dr. Wenjia Bai. His research focuses on multimodal learning across vision, physiological signals, and language, with applications in medicine. His work has been published in machine learning conferences such as ICML, NeurIPS, and ACL, as well as clinical journals including IEEE Transactions on Medical Imaging and NEJM AI. He has also undertaken research internships at AstraZeneca and Alibaba DAMO Academy, contributing to real-world, large-scale applications of multimodal learning in medical AI.</p>
+        </div>
+      </div>  
+
+      <!-- Speaker 2: Yifei Wang -->
+      <div class="row align-items-center my-4">
+        <div class="col-md-3 text-center">
+          <img class="rounded-circle img-thumbnail"
+               style="max-width:180px; aspect-ratio: 1 / 1; object-fit: cover;"
+               src="../images/yifei_wang.jpg" alt="Yifei Wang headshot" />
+          <p class="fs-5 my-2 committee-name">
+            <a href="https://yifeiwang77.com/" target="_blank" rel="noopener noreferrer">
+              Dr&nbsp;Yifei&nbsp;Wang
+            </a>
+          </p>
+          <p class="committee-title">Postdoctoral Researcher<br>MIT</p>
+        </div>
+        <div class="col-md-9">
+          <h4 class="fw-bold">Your Next-Token Prediction and Transformers Are Biased for Long-Context Modeling</h4>
+          <p><strong>Abstract.</strong> Next-token prediction and the Transformer architecture have long been the de&nbsp;facto standards for training language models. In this talk, we argue that both practices are inherently biased, and these biases become particularly pronounced under long context. Specifically, we identify the root causes behind (1) the discrepancy between next-token prediction performance (e.g., perplexity) and long-context benchmark scores, and (2) persistent position-bias phenomena in Transformers, such as lost-in-the-middle, attention sinks, and recency bias. Our analysis leads to principled training objectives and architectural insights that substantially improve LLMs’ performance in long-context settings. This talk is based on the following two recent papers: <br>
+            1. <a href="https://arxiv.org/abs/2410.23771" target="_blank" rel="noopener noreferrer">What is Wrong with Perplexity for Long-context Language Modeling?</a>. ICLR 2025.<br>
+            2. <a href="https://arxiv.org/abs/2502.01951" target="_blank" rel="noopener noreferrer">On the Emergence of Position Bias in Transformers</a>. ICML 2025.</p>
+          <p><strong>Bio.</strong> Yifei&nbsp;Wang is a postdoctoral researcher at MIT&nbsp;CSAIL, working with Professor&nbsp;Stefanie&nbsp;Jegelka. His research focuses on the theoretical and algorithmic foundations of self-supervised learning, foundation models, and AI safety. His work has received four best-paper awards and has been featured by Anthropic and MIT. He served as an area chair for ICLR&nbsp;2024 and ICLR&nbsp;2025. Before MIT, Yifei earned a PhD&nbsp;in Applied Mathematics, a BS&nbsp;in Data Science, and a BA&nbsp;in Philosophy from Peking University.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="d-flex justify-content-between align-items-center p-3 my-4 border-top">
+    <div class="align-items-center">
+      <span class="text-body-secondary">Connect with us at KCL NLP!</span>
+    </div>
+    <ul class="nav col-md-4 justify-content-end">
+      <li class="ms-3"><a href="https://x.com/kclnlp"><i class="bi bi-twitter-x"></i></a></li>
+      <li class="ms-3"><a href="https://kclnlp.github.io/"><i class="bi bi-house-door-fill"></i></a></li>
+    </ul>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-C6RzsynM9tWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+  </script>
+  <script src="../main.js"></script>
+
+</body>
+</html>
